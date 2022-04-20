@@ -10,7 +10,7 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 300px;
-    height: 350px;
+    height: 365px;
     margin: 0;
     padding: 10px;
     border: 3px solid orange;
@@ -44,3 +44,35 @@ h1 {
 #palette4 {
     background: green;
 }
+
+/* #pixel-board {
+    display: inline
+} */
+
+/* #color-palette {
+    width: 250px;
+    height: 50px;
+    display: inline;
+    margin: 0;
+    padding: 4px 4px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+} */
+
+.pixel {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: block;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: darkgreen;
+    display: inline-block;
+    background: darkgreen;
