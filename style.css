@@ -9,11 +9,18 @@ h1 {
 .container-center {
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 365px;
+    width: 600px;
+    height: 500px;
+    /* height: ; */
     margin: 0;
     padding: 10px;
     border: 3px solid orange;
+}
+
+#pixel-board {
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .color {
@@ -45,34 +52,21 @@ h1 {
     background: green;
 }
 
-/* #pixel-board {
-    display: inline
-} */
-
-/* #color-palette {
-    width: 250px;
-    height: 50px;
-    display: inline;
-    margin: 0;
-    padding: 4px 4px;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-} */
+.linha-pixel {
+    display: flexbox;
+    flex-direction: column;
+    max-width: 300px;
+    /* max-width: calc(40px * 7); */
+}
 
 .pixel {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
-    display: block;
+    display: inline-block;
+    float:left;
+    padding: 5px;
     border-color: black;
     border-style: solid;
     border-width: 1px;
 }
-
-.box {
-    width: 50px;
-    height: 50px;
-    background-color: darkgreen;
-    display: inline-block;
-    background: darkgreen;
