@@ -32,13 +32,24 @@ for (let i3 = 0; i3 < clickColorSelect.length; i3 += 1) {
 function changeColor () {
   const pixelClass = document.querySelectorAll('.pixel');
   for (let i4 = 0; i4 < pixelClass.length; i4 += 1) {
-    pixelClass[i4].addEventListener('click', function(event){
+    pixelClass[i4].addEventListener('click', function (event) {
       const element = document.querySelector('.selected');
-      const cssObj = window.getComputedStyle(element);
-      let cssColor = cssObj.getPropertyValue('background-color');
-
-      event.target.style.backgroundColor = cssColor;
-    })
+      const objectCss = window.getComputedStyle(element);
+      const colorCss = objectCss.getPropertyValue('background-color');
+      event.target.style.backgroundColor = colorCss;
+    });
   }
 }
 changeColor();
+
+// Aplica a cor 'branca' para todos os pixels, resetando a área de pintura
+const clearButton = document.getElementById('clear-board');
+const selectPixel = document.querySelectorAll('.pixel');
+function clearPixels() {
+  clearButton.addEventListener('click', function () {
+    for (let i5 = 0; i5 < selectPixel.length; i5 += 1) {
+      selectPixel[i5].style.backgroundColor = 'white';
+    }
+  });
+}
+clearPixels();

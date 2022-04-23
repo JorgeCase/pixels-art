@@ -12,6 +12,14 @@
     margin: 0;
 }
 
+#clear-board {
+    height: 50px;
+    width: 100px;
+    font-size:larger;
+    border: 1px solid black;
+    margin: 10px;
+}
+
 /* .container-center {
     border: 3px solid orange;
     padding: 10px;
