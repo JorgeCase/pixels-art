@@ -20,14 +20,25 @@ function createFrame(num) {
 createFrame(5);
 
 // Adiciona o evento que seleciona a cor
-/* const blackElement = document.querySelector('.color');
-blackElement.classList.replace('color', 'color selected');
-console.log(blackElement); */
 const clickColorSelect = document.getElementsByClassName('color');
-
 for (let i3 = 0; i3 < clickColorSelect.length; i3 += 1) {
   clickColorSelect[i3].addEventListener('click', function (event) {
     document.querySelector('.selected').classList.remove('selected');
     event.target.classList.add('selected');
   });
 }
+
+// Aplica a cor selecionada na paleta ao pixel
+function changeColor () {
+  const pixelClass = document.querySelectorAll('.pixel');
+  for (let i4 = 0; i4 < pixelClass.length; i4 += 1) {
+    pixelClass[i4].addEventListener('click', function(event){
+      const element = document.querySelector('.selected');
+      const cssObj = window.getComputedStyle(element);
+      let cssColor = cssObj.getPropertyValue('background-color');
+
+      event.target.style.backgroundColor = cssColor;
+    })
+  }
+}
+changeColor();
