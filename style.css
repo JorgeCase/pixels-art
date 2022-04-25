@@ -1,7 +1,11 @@
-* {
-    border: 0;
-    margin: 100;
-    padding: 0;
+body {
+    margin: 50px;
+    align-items: center;
+}
+
+#board-size {
+    border: 1px solid black;
+    padding: 12px;
 }
 
 .color, .selected {
@@ -9,7 +13,6 @@
     display: inline-block;
     height: 50px;
     width: 50px;
-    margin: 0;
 }
 
 #clear-board {
@@ -20,16 +23,20 @@
     margin: 10px;
 }
 
-/* .container-center {
-    border: 3px solid orange;
-    padding: 10px;
+#choiceNumber {
+    height: 100px;
 }
- */
+
+  #generate-board {
+    border: 1px solid black;
+     padding: 12px;
+     margin: 0px 0px 8px 0px;
+     
+ }
+
 .linha-pixel {
-    display: flexbox;
-    flex-direction: column;
-    max-width: 300px;
-    /* max-width: calc(40px * 7); */
+    display: block;
+    height: 50px;
 }
 
 #palette1 {
@@ -49,17 +56,16 @@
 }
 
 .pixel {
+    display: inline-block;
     background-color: white;
     border: 1px solid black;
     height: 40px;
     width: 40px;
-    float:left;
     padding: 5px;
 }
 
 #pixel-board {
     align-items: center;
     min-height: 300px;
-    margin: 0;
     width: 100%;
 }
