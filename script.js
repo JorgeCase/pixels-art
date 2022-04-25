@@ -91,3 +91,15 @@ function choice() {
   });
 }
 choice();
+
+// Alteração aleatória das cores
+function colorChange() {
+  for (let i6 = 1; i6 < clickColorSelect.length; i6 += 1) {
+    const secondPalette = Math.floor(Math.random() * 255);
+    const thirdPalette = Math.floor(Math.random() * 255);
+    const fourthPalette = Math.floor(Math.random() * 255);
+    const rgbPalette = `rgb(${secondPalette}, ${thirdPalette}, ${fourthPalette})`;
+    clickColorSelect[i6].style.backgroundColor = rgbPalette;
+  }
+}
+colorChange();
