@@ -1,71 +1,70 @@
 body {
-    margin: 50px;
-    align-items: center;
+  margin: 50px;
+  align-items: center;
 }
 
 #board-size {
-    border: 1px solid black;
-    padding: 12px;
+  border: 1px solid black;
+  padding: 12px;
 }
 
 .color, .selected {
-    border: 1px solid black;
-    display: inline-block;
-    height: 50px;
-    width: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
 }
 
 #clear-board {
-    height: 50px;
-    width: 100px;
-    font-size:larger;
-    border: 1px solid black;
-    margin: 10px;
+  height: 50px;
+  width: 100px;
+  font-size:larger;
+  border: 1px solid black;
+  margin: 10px;
 }
 
 #choiceNumber {
-    height: 100px;
+  height: 100px;
 }
 
-  #generate-board {
-    border: 1px solid black;
-     padding: 12px;
-     margin: 0px 0px 8px 0px;
-     
- }
+#generate-board {
+  border: 1px solid black;
+  padding: 12px;
+  margin: 0px 0px 8px 0px;
+}
 
 .linha-pixel {
-    display: block;
-    height: 50px;
+  display: block;
+  height: 50px;
 }
 
 #palette1 {
-    background-color: black;
+  background-color: black;
 }
 
 #palette2 {
-    background-color: red;
+  background-color: red;
 }
 
 #palette3 {
-    background-color: blue;
+  background-color: blue;
 }
 
 #palette4 {
-    background-color: green;
+  background-color: green;
 }
 
 .pixel {
-    display: inline-block;
-    background-color: white;
-    border: 1px solid black;
-    height: 40px;
-    width: 40px;
-    padding: 5px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  padding: 5px;
 }
 
 #pixel-board {
-    align-items: center;
-    min-height: 300px;
-    width: 100%;
+  align-items: center;
+  min-height: 300px;
+  width: 100%;
 }
