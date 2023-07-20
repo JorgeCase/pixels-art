@@ -1,6 +1,10 @@
 body {
-  margin: 50px;
+  margin: 80px;
   align-items: center;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #board-size {
@@ -9,17 +13,22 @@ body {
 }
 
 .color, .selected {
+  align-items: center;
   border: 1px solid black;
   display: inline-block;
   height: 50px;
+  flex-direction: column;
+  justify-content: center;
   width: 50px;
 }
 
 #clear-board {
   height: 50px;
   width: 100px;
-  font-size:larger;
+  font-size: larger;
   border: 1px solid black;
+  justify-content: center;
+  align-items: center;
   margin: 10px;
 }
 
@@ -30,7 +39,7 @@ body {
 #generate-board {
   border: 1px solid black;
   padding: 12px;
-  margin: 0px 0px 8px 0px;
+  margin: 0px 0px 8px;
 }
 
 .linha-pixel {
