@@ -7,7 +7,7 @@
   <p align="center">Este projeto consiste em um editor de arte com pixels, onde o usuário pode pintar e criar desenhos utilizando uma paleta de cores funcional.</p>
 
   <h2 align="center">Habilidades Desenvolvidas</h2>
-  <p align="center">No desenvolvimento deste projeto foram utilizadas as seguintes habilidades</p>
+  <p align="center">No desenvolvimento deste projeto foram utilizadas as seguintes habilidades:</p>
   <ul>
     <li>JavaScript</li>
     <li>HTML</li>
@@ -17,12 +17,12 @@
 
   <h2 align="center">📁 Acesso à aplicação</h2>
   <div align="center">
-    <p align="center">Você pode utilizar a aplicação clicando no link abaixo</p>
+    <p align="center">Você pode utilizar a aplicação clicando no link abaixo.</p>
     <a href='https://jorge-case-pixels-art.netlify.app/'>Clique aqui para utilizar</a>
   </div>
   <h4 align="center">Este projeto é um dos requisitos para a formação de Desenvolvimento Web da Trybe</h4>
-  <p>O projeto constava de <b>nove</b> requisitos obrigatórios e <b>três</b> requisitos optativos. Onde obtive <b>100% de aprovação</b></p>
-    <p>Lista de requisitos obrigatórios</p>
+  <p>O projeto finaliza a <b>Seção 4 - JavaScript, DOM, Eventos e Web Storage</b> do Módulo de Fundamentos e possuía <b>nove</b> requisitos obrigatórios e <b>três</b> requisitos optativos. Neste projeto obtive <b>100% de aprovação</b>.</p>
+    <p>Lista de requisitos obrigatórios:</p>
   <ul>
     <li>Adicione à página o título "Paleta de Cores".</li>
     <li>Adicione à página uma paleta contendo quatro cores distintas.</li>
@@ -34,7 +34,7 @@
     <li>Clicar em um pixel dentro do quadro após selecionar uma cor na paleta faz com que o pixel seja preenchido com a cor selecionada.</li>
     <li>Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos os seus pixels com branco.</li>
   </ul>
-  <p>Lista de requisitos optativos</p>
+  <p>Lista de requisitos optativos:</p>
   <ul>
     <li>Faça o quadro de pixels ter seu tamanho definido pela pessoa usuária.</li>
     <li>Limite o tamanho mínimo e máximo do quadro.</li>
@@ -42,7 +42,7 @@
   </ul>
 
   <div align="center">
-    <h4 align="center">Para mais informações sobre a formação de Desenvolvimento Web da Trybe, clique no link abaixo</h4>
+    <h4 align="center">Para mais informações sobre a formação de Desenvolvimento Web da Trybe, clique no link abaixo.</h4>
     <a href='https://www.betrybe.com/'>Curso de Desenvolvimento Web Trybe</a>
   </div>
 </body>
